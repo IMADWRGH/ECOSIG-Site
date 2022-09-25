@@ -1,0 +1,13 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    text-align: center;
+    color:blue;
+    margin-bottom: 2.5rem;
+}
+form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}

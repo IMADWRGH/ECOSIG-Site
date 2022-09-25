@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #afc2e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header h1{
+    text-decoration: none;
+    color: rgb(243, 78, 78);
+    font-size: 4rem;
+    font-weight: 700;
+}
+.header p{
+    font-size: 1.5rem;
+}
+img{
+    width: 10rem;
+    margin-right: 10%;
+}
+nav{
+    background-color:#2a5ebe ;
+    width: 100%;
+    height: 4rem;
+    padding-top: 1rem;
+}
+nav ul li {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 300;   
+}
+nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    border-radius: 25%;
+    transition: 0.5s ease;
+}
+nav ul li  :hover{
+color: rgb(207, 14, 14);
+transform: scale(1.1);
+}
+section {
+    padding: 1.5rem;
+    background-color: rgb(209, 217, 225);
+    height: 100vh;
+}
+section .info{
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+section a {
+    text-decoration: none;
+}
+section p :hover{
+    color:blue;
+}
+section img{
+    position: relative;
+    width:30%;
+    height:60%;
+    float: left;
+    margin-left: 1.5rem;
+    border-radius: 10%;
+}
+.info-ecole{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1rem;
+    position: relative;
+    top:8rem;
+}
+footer{
+    background-color:#2a5ebe;
+}
+footer div {
+    display:flex;
+   justify-content: space-between;
+   align-items: center;
+   color: #ffffff;
+}
+.sous-title{
+    padding: 1rem 1rem 2.5rem 1rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    list-style: none;
+}
+ .fast-link {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+.fb-link{
+    list-style: none;
+        text-decoration: none;
+        color: black;
+      
+}
+
+
+
+  
+    
